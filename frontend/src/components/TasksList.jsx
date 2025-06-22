@@ -41,7 +41,6 @@ export default function TasksList() {   // главная страница со 
 
          // функция для добавления задачи
         const handleTaskAdded = () => {
-            setPage(1);
             fetchTasks(1); 
         };
 
